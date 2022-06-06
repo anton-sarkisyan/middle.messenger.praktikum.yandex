@@ -1,0 +1,14 @@
+@import './normalize.css';
+@import './fonts.css';
+@import './variables';
+@import '../layouts/main.scss';
+@import '../components/form/form';
+@import '../components/form/auth-body/auth-body';
+@import '../components/form/register-body/register-body';
+@import '../components/form-input/form-input';
+@import '../components/button/button';
+@import '../components/page-title/page-title';
+@import '../components/error-block/error-block';
+@import '../pages/chat/chat';
+@import '../pages/profile/profile';
+@import '../components/profile-input/profile-input';

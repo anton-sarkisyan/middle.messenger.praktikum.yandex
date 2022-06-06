@@ -1,0 +1,23 @@
+.form-input {
+  display: flex;
+  flex-direction: column;
+
+  &__item {
+    box-sizing: border-box;
+    background-color: $main-color;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 16px;
+    color: $text-color-main;
+    font-size: 13px;
+    line-height: 13px;
+    font-weight: $font-weight-medium;
+  }
+
+  &__label {
+    color: $text-color-secondary;
+    font-size: 9px;
+    line-height: 9px;
+    margin-bottom: 8px;
+  }
+}

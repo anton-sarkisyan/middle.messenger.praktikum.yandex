@@ -1,0 +1,10 @@
+<div class='error-block'>
+  {{#if is500}}
+    {{> page-title/page-title page-title='500' }}
+  {{/if}}
+  {{#if is404}}
+    {{> page-title/page-title page-title='404' }}
+  {{/if}}
+  <h2 class='error-block__subtitle'>{{subtitle}}</h2>
+  <a class='error-block__link' href='/'>Go to home</a>
+</div>
