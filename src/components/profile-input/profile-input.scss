@@ -1,0 +1,28 @@
+.profile-input {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-bottom: 10px;
+
+  &__item {
+    text-align: end;
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-family: inherit;
+    font-weight: $font-weight-medium;
+    font-size: 13px;
+    line-height: 13px;
+    color: $text-color-main;
+  }
+
+  &__label {
+    font-weight: $font-weight-medium;
+    font-size: 13px;
+    line-height: 13px;
+    color: $text-color-secondary;
+    display: inline-block;
+    white-space: nowrap;
+  }
+}

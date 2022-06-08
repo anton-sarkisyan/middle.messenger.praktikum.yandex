@@ -1,0 +1,27 @@
+.error-block {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $main-color;
+}
+
+.error-block__subtitle {
+  font-family: $font-family;
+  font-weight: $font-weight-medium;
+  font-size: 20px;
+  line-height: 20px;
+  color: $text-color-main;
+  margin: 23px 0 63px;
+}
+
+.error-block__link {
+  font-family: $font-family;
+  font-weight: $font-weight-medium;
+  color: $text-color-accent;
+  font-size: 11px;
+  line-height: 11px;
+  text-decoration: none;
+
+}

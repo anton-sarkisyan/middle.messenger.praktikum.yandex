@@ -1,0 +1,12 @@
+.button {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: $accent-background-color;
+  border-radius: 8px;
+  border: none;
+  padding: 12px 0;
+  color: $text-color-main;
+  font-size: 13px;
+  line-height: 13px;
+  font-weight: $font-weight-medium;
+}

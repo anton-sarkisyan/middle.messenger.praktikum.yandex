@@ -1,0 +1,39 @@
+{{!< main}}
+
+<div class='profile'>
+  <div class='profile__avatar'>
+    <img class='profile__avatar-icon' src='../../static/svg/avatar-icon.svg' alt='avatar'>
+  </div>
+  <p class='profile__name'>Иван</p>
+  <ul class='profile__form'>
+    <li class='profile__input-wrapper'>
+      {{> profile-input/profile-input id='email' name='email' type='email' label='Email' value='pochta@yandex.ru' }}
+    </li>
+    <li class='profile__input-wrapper'>
+      {{> profile-input/profile-input id='login' name='login' type='text' label='Login' value='ivanivanov' }}
+    </li>
+    <li class='profile__input-wrapper'>
+      {{> profile-input/profile-input id='first_name' name='first_name' type='text' label='Name' value='Иван' }}
+    </li>
+    <li class='profile__input-wrapper'>
+      {{> profile-input/profile-input id='second_name' name='second_name' type='text' label='Last name' value='Иванов' }}
+    </li>
+    <li class='profile__input-wrapper'>
+      {{> profile-input/profile-input id='display_name' name='display_name' type='text' label='Display name' value='Иван' }}
+    </li>
+    <li class='profile__input-wrapper'>
+      {{> profile-input/profile-input id='phone' name='phone' type='tel' label='Phone' value='+7(909)967-30-30' }}
+    </li>
+  </ul>
+  <div class='profile__links-block'>
+    <div class='profile__link-wrapper'>
+      <a class='profile__link' href='/'>Change data</a>
+    </div>
+    <div class='profile__link-wrapper'>
+      <a class='profile__link' href='/'>Change password</a>
+    </div>
+    <div class='profile__link-wrapper'>
+      <a class='profile__link profile__link_color_red' href='/'>Log out</a>
+    </div>
+  </div>
+</div>

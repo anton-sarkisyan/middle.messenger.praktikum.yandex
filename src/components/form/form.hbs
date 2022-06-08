@@ -1,0 +1,18 @@
+<div class="form">
+  <div class="form__item">
+    <h1 class="form__title">{{title}}</h1>
+    {{#if isAuth}}
+      <div class="form__auth-block">
+        {{> form/auth-body/auth-body}}
+      </div>
+      {{> button/button title='Sign in'}}
+    {{/if}}
+    {{#if isRegister}}
+      <div class="form__register-block">
+        {{> form/register-body/register-body}}
+      </div>
+      {{> button/button title='Sign up'}}
+    {{/if}}
+    <a class="form__link" href={{url}}>{{text-link}}</a>
+  </div>
+</div>

@@ -1,0 +1,43 @@
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: $main-color;
+
+  &__item {
+    box-sizing: border-box;
+    width: 340px;
+    padding: 50px 30px 30px 30px;
+    min-height: 100%;
+    background-color: $main-color-secondary;
+    border-radius: 12px;
+  }
+
+  &__title {
+    font-size: 20px;
+    color: $text-color-main;
+    text-align: center;
+    margin: 0 0 40px 0;
+    font-weight: $font-weight-medium;
+   }
+
+  &__auth-block {
+    margin-bottom: 132px;
+  }
+
+  &__register-block {
+    margin-bottom: 125px;
+  }
+
+  &__link {
+    display: block;
+    font-weight: $font-weight-medium;
+    font-size: 11px;
+    line-height: 11px;
+    text-align: center;
+    margin-top: 14px;
+    color: $text-color-accent;
+    text-decoration:none;
+  }
+}
